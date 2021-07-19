@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>Marvel SuperHeroes</p>
+
+<p id="demo"></p>
+
+<script>
+const marvel = ["IronMan", "Thor", "CaptainAmerica", "Thanos"];
+let MLength = marvel.length;
+
+let text = "<ul>";
+for (let i = 0; i < MLength; i++) {
+  text += "<li>" + marvel[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
